@@ -1,0 +1,339 @@
+* {
+    font-family: 'Markazi Text', serif;
+}
+
+p {
+    font-family: 'Karla';
+}
+
+.section {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.section-content {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Navigation*/
+
+.section-nav{
+    text-align: center;
+}
+
+.section-nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    vertical-align:bottom;
+    line-height:55px;
+    height:55px;
+}
+
+.section-nav li a{
+    text-decoration: none;
+    color: #495E57;
+    font-size: large;
+    display: block;
+    margin-block-start: 10px;
+    font-family: 'Karla';
+}
+
+.navlogo {
+    height: 50px;
+    display: block;
+    justify-content: center;
+    margin-block-start: 10px;
+    margin-right: 1rem;
+}
+
+ul a:hover {
+    color:black;
+    transform: scale(1.05);
+}
+
+/*Header*/
+
+.header {
+    flex-direction: column;
+}
+
+.header-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-content {
+    float: left;
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+.header-title {
+    color: #f4ce14;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 4rem;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    color: #fff;
+    text-align: left;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.header-copy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.header-img {
+    margin-top: 5rem;
+    width: 325px;
+    height: 325px;
+    border-radius: 3%;
+    float: right;
+}
+
+.header-button {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    font-family: 'Karla';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-button {
+    background-color: #ffc107;
+    color: #212529;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: none;
+    transform: scale(1);
+}
+
+.header-button:hover {
+    background-color: #e0a800;
+    transform: scale(1.02);
+}
+
+/*Food_specials*/
+
+.container3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    flex-direction: column;
+}
+
+.section-food h1 {
+    color: black;
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.section-food-cards {
+    display: flex;
+    margin-block: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 8%;
+    gap: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    font-family: 'Karla';
+}
+
+/*Section Testimonials*/
+
+.section-testimonials {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #495E57;
+    flex-direction: column;
+}
+
+.section-testimonials h1{
+    color:#f4ce14;
+    font-size: 64px;
+    font-weight: 500;
+    align-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    align-content: center;
+}
+
+.section-testimonials-cards {
+    display: flex;
+    margin-block: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 8%;
+    gap: 2rem;
+    flex-direction: row;
+    font-family: 'Karla';
+}
+
+/*Section Article*/
+
+.section-article {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.section-article-h1{
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.section-article-h2{
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 1rem;
+    text-emphasis: bold;
+}
+
+.section-article-p{
+    font-size: 18px;
+    text-align: left;
+    width: 430px;
+}
+
+.section-article-img1{
+    height: 350px;
+    width: 350px;
+    border-radius: 3%;
+    position: relative;
+    left: 155px;
+    top: -240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-article-img2{
+    border-radius: 3%;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 350px;
+    top: 980px;
+}
+
+/*Section Footer*/
+
+.section-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-footer-nav {
+    float: left;
+    width: 25%;
+    font-family: "Karla";
+    text-align: right;
+}
+
+.section-footer-nav img {
+    float: left;
+    width:200px;
+    height: 60px;
+    margin-right:  4rem;
+}
+
+.section-footer-nav b {
+    line-height: 4rem;
+    font-family: 'Karla';
+    font-size: 17px;
+    margin-inline-start: 0%;
+}
+
+/*Section Reservation*/
+
+#reservation {
+    font-family: 'Karla';
+    font-size: 20px;
+    color: #495E57;
+    align-content: center;
+}
+
+.questionarie {
+    background-color: #EDEFEE;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.headreservation {
+    color: #fff;
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Marzaki';
+}
+
+.questionarie label {
+    font-weight: 550;
+    border-color: #B6B6B6;
+    color: #495E57;
+    font-size: 17px;
+    font-family: 'Karla';
+    margin-bottom: 0px;
+}
+
+.namelabel {
+    margin-top: 2rem;
+}
+
+.questionarie input {
+    border-radius: 10px;
+    border-color: #B6B6B6;
+    border-style: solid;
+    width: 200px;
+    font-size: 18px;
+    background-color: #D6DFDC;
+}
+
+.questionarie select {
+    border-radius: 10px;
+    width: 200px;
+}
+
+.reservebutton {
+    background-color: #f4ce14 !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Karla';
+    font-weight: normal;
+}
+
+.text-danger{
+    color: red;
+    font-size: 13px;
+    font-family: 'Times New Roman';
+}
+
+/* .questionarie input:invalid{
+    border: 1px solid red;
+} */
