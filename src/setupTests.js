@@ -11,46 +11,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import BookingForm from "./components/BookingForm";
 
 describe('BookingForm Component', () => {
-//     test('renders form with multiple input fields and submit button', () => {
-//       render(<BookingForm />);
-      
-//     // Check if the input fields and button are rendered
-//     const nameInput = screen.getByPlaceholderText("First Name");
-//     const lastnameInput = screen.getByPlaceholderText("Last Name");
-//     const dateInput = screen.getAllByPlaceholderText("mm/dd/yy")[0];
-//     const guestInput = screen.getAllByPlaceholderText("")[0];
-//     const occasionInput = screen.getAllByPlaceholderText("")[0];
-//     const emailInput = screen.getByPlaceholderText("E-mail");
-    
-//     expect(nameInput).toBeInTheDocument();
-//     expect(lastnameInput).toBeInTheDocument();
-//     expect(dateInput).toBeInTheDocument();
-//     expect(guestInput).toBeInTheDocument();
-//     expect(occasionInput).toBeInTheDocument();
-//     expect(emailInput).toBeInTheDocument();
-//   });
-
-//   test ('renders form with multiple input fields by id', () => {
-//     render(<BookingForm />);
-    
-//     //Check if the input fields and button are rendered by id.
-//     const nameInput = document.getElementById('name');
-//     const lastnameInput = document.getElementById("lastname");
-//     const dateInput = document.getElementById("date");
-//     //const timeInput = document.getElementById("time");
-//     const guestsInput = document.getElementById("guests");
-//     const occasionInput = document.getElementById("occasion");
-//     const emailInput = document.getElementById("email");
-
-
-//     expect(nameInput).toBeInTheDocument();
-//     expect(lastnameInput).toBeInTheDocument();
-//     expect(dateInput).toBeInTheDocument();
-//     //expect(timeInput).toBeInTheDocument();
-//     expect(guestsInput).toBeInTheDocument();
-//     expect(occasionInput).toBeInTheDocument();
-//     expect(emailInput).toBeInTheDocument();
-//   });
 
   // Attributes are present and are valid in the form inputs.
   test('Attributes are present and valid in the form inputs.', () => {
