@@ -9,8 +9,8 @@ const Navbar = () => {
                 <ul className="section-nav">
                     <li><img src="./logo.png" alt="Navigation Logo" className="navlogo"></img></li>
                     <li><a href="./home">Home</a></li>
-                    <li><a href="./about">About</a></li>
-                    <li><a href="./menu">Menu</a></li>
+                    <li><a href="#_">About</a></li>
+                    <li><a href="#_">Menu</a></li>
                     <li><a href="./booking">Booking</a></li>
                     <li><a href="#_">Order Online</a></li>
                     <li><a href="#_">Login</a></li>

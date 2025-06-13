@@ -1,12 +1,3 @@
-// import { render, screen } from '@testing-library/react';
-// import App from './App';
-
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
-
 import { render, screen, fireEvent} from "@testing-library/react";
 import BookingForm,  { updateTimes, initializeTimes } from "./components/BookingForm";
 import  { fetchAPI } from '../src/api/api';
@@ -18,14 +9,6 @@ describe ('Booking Form Test', () => {
     expect(headingElement).toBeInTheDocument();
   });
 });
-
-// describe ('Reducer initialize Times Test', () => {
-//   test('Returns the correct expected value', () => {
-//     const test = initializeTimes();
-//     const expected = (["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"]);
-//     expect(test).toEqual(expected);
-//   });
-// });
 
 describe('Testing the initializeTimes function', () => {
   test('Will return a non-empty array of available booking times', () => {
